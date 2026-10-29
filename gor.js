@@ -40,7 +40,7 @@ for (let g = 0; g < groupCount; g++) {
 	const video = document.createElement("video");
 	video.crossOrigin = "anonymous";
 	video.src =
-		"https://raw.githubusercontent.com/Elizaveta590/gorod/fe5980d35ac25056748974a13df8f9df5de38ba9/sneg.webm";
+		"https://raw.githubusercontent.com/Elizaveta590/gorod/main/sneg.webm";
 	video.loop = true;
 	video.muted = true;
 	video.playbackRate = 0.010 + Math.random() * 1.0;
@@ -94,7 +94,7 @@ for (let g = 0; g < groupCount; g++) {
 
 const hdrLoader = new HDRLoader();
 const hdrTexture = hdrLoader.load(
-	"https://raw.githubusercontent.com/Elizaveta590/gorod/fe5980d35ac25056748974a13df8f9df5de38ba9/gorod.hdr",
+	"https://raw.githubusercontent.com/Elizaveta590/gorod/refs/heads/main/gorod.hdr",
 	() => {
 		hdrTexture.mapping = THREE.EquirectangularReflectionMapping;
 		hdrTexture.colorSpace = THREE.SRGBColorSpace;
